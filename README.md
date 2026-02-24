@@ -13,6 +13,14 @@ When you're ready to learn Docker, Theseus doesn't hide anything. Any command it
 
 ## Installation
 
+### Option 1: Quick Install (macOS / Linux)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Prakharprasun/theseus/main/install.sh | sh
+```
+
+### Option 2: Build from Source
+
 ```bash
 cargo install --path .
 ```
