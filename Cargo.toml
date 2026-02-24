@@ -1,0 +1,17 @@
+[package]
+name = "theseus"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "tsus"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0.102"
+clap = { version = "4.5.60", features = ["derive"] }
+
+[dev-dependencies]
+assert_cmd = "2.1.2"
+predicates = "3.1.4"
+tempfile = "3.25.0"
