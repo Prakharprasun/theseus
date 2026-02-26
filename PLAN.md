@@ -72,7 +72,7 @@ Theseus must remain thin. If complexity increases, reconsider.
 A student can:
 
 1. Install Docker
-2. Run `curl -fsSL ... | sh` to install Theseus
+2. Run `curl -fsSL https://raw.githubusercontent.com/Prakharprasun/theseus/main/install.sh | sh`
 3. Run `tsus run`
 4. See their project working
 
